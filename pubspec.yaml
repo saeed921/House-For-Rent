@@ -40,6 +40,7 @@ dependencies:
   carousel_slider:
   proste_bezier_curve: ^2.0.2
   get:
+  provider:
 
 
 dev_dependencies:
