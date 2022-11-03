@@ -4,6 +4,8 @@ import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:house_for_rent/pages/category_page.dart';
 
+import 'house_owner.dart';
+
 
 class HomePage extends StatefulWidget {
   static const String routeName = '/';
@@ -46,7 +48,7 @@ class _HomePageState extends State<HomePage> {
           ),
           SizedBox(height: 30,),
           InkWell(
-            onTap: () =>Get.to(CategoryPage()),
+            onTap: () =>Get.to(HouseOwnerPage()),
 
             child: Container(
               height: 50,
